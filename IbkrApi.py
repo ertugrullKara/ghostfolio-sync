@@ -77,7 +77,7 @@ class IbkrApi:
         for flex_statements in query.FlexStatements:
             all_cash_transactions.extend(flex_statements.CashTransactions)
         transaction_summaries = filter(
-            lambda x: x.levelOfDetail == 'SUMMARY'
+            lambda x: (x.levelOfDetail == 'SUMMARY' or x.levelOfDetail == 'DETAIL')
                       and (x.type in cash_action_types)
                       and ('EXPIRE DIVIDEND RIGHT' not in x.description),
             all_cash_transactions
