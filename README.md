@@ -1,6 +1,6 @@
 # Ghostfolio-Sync
 
-Sync your (Ghostfolio)[https://ghostfol.io/en/home/overview] with IBKR ( more to come? )
+Sync your (Ghostfolio)[https://ghostfol.io/en/home/overview] with IBKR
 
 ## Kudos 
 
